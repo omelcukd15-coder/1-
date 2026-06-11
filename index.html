@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Denis.dev — frontend developer creating premium interfaces with strong UX and smooth animations.">
+    <title>Denis.dev | Premium UI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="bg-gradient"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <span class="logo-dot"></span>
+                    Denis.dev
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link active">Главная</a></li>
+                    <li><a href="#projects" class="nav-link">Проекты</a></li>
+                    <li><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-label">FRONTEND DEVELOPER • UI ENGINEER</span>
+                    <h1 class="hero-title">
+                        Создаю
+                        <span class="gradient-text">premium интерфейсы</span>
+                        с сильным UX
+                    </h1>
+                    <p class="hero-description">
+                        Разрабатываю быстрые, современные и визуально дорогие
+                        веб-продукты с упором на анимации, производительность
+                        и чистую архитектуру.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary magnetic">Смотреть проекты</a>
+                        <a href="#contact" class="btn btn-secondary magnetic">Связаться</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <h3 data-counter="50">0</h3>
+                            <p>Проектов</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 data-counter="5">0</h3>
+                            <p>Лет опыта</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 data-counter="100">0</h3>
+                            <p>% качества</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-card">
+                        <div class="hero-card-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="code-window">
+                            <pre id="typing-code" class="code-block"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-label">ПОРТФОЛИО</span>
+                    <h2>Избранные проекты</h2>
+                </div>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-label">EXPERTISE</span>
+                    <h2>Мой стек</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <span>HTML / CSS</span>
+                            <div class="progress">
+                                <div class="progress-fill" data-width="98"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress">
+                                <div class="progress-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>UI / UX</h3>
+                        <div class="skill-item">
+                            <span>Animations</span>
+                            <div class="progress">
+                                <div class="progress-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Responsive</span>
+                            <div class="progress">
+                                <div class="progress-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <span class="section-label">CONTACT</span>
+                    <h2>Давай работать вместе</h2>
+                    <p>Есть проект? Напиши мне.</p>
+                    <a href="mailto:hello@denis.dev" class="btn btn-primary magnetic">Написать</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
