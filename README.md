@@ -1,2 +1,1 @@
-# 1-
-Шаблон для портфолио по продажам
+Сайт шаблон для веб разработчиков c новым дизайном и красивыми анимациями, так же сделан для портфолио и продаж/A template website for web developers with a new design and beautiful animations, also made for portfolios and sales
